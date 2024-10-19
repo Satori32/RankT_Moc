@@ -1,12 +1,4 @@
-#include <stdio.h>
-
-#include "Any.h"
-#include "NumericalCounter.h"
-
-struct RankT {
-	NumericalCounter N;
-	Any A;
-};
+#include "RankT.h"
 
 RankT ConstructRankT(Any& A, NumericalCounter& N) {
 	RankT R;

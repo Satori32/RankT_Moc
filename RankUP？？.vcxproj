@@ -130,12 +130,14 @@
     <ClCompile Include="Any.cpp" />
     <ClCompile Include="MemoryAllocator.cpp" />
     <ClCompile Include="NumericalCounter.cpp" />
+    <ClCompile Include="RankT.cpp" />
     <ClCompile Include="ソース.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Any.h" />
     <ClInclude Include="MemoryAllocator.h" />
     <ClInclude Include="NumericalCounter.h" />
+    <ClInclude Include="RankT.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
